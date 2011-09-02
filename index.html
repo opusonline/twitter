@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Twitter ajax with recheck</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: small arial;
+}
+#twitter {
+	width: 250px;
+	height: 200px;
+	border: 1px solid #f00;
+	background: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<div id="twitter"></div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="jquery.twitter.js"></script>
+<script>
+$(document).ready(function() {
+	$('#twitter').twitter({username: 'twitterapi'});
+});
+</script>
+
+</body>
+
+</html>
