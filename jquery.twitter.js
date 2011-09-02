@@ -1,5 +1,5 @@
 /*!
- * jQuery HTML5 Upload plugin
+ * jQuery Twitter plugin
  *
  * Copyright (c) 2011 Stefan Benicke
  *
